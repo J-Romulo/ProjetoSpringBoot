@@ -1,0 +1,60 @@
+#nav_header{
+    width: 100%;
+}
+
+#dropdownMenuButton1{
+    background-color: white;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+
+#header_login{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#header_text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lobster', cursive;
+    color: white;
+    text-shadow: 1px 3px 1px #000000;
+}
+
+#header_text > h1{
+    font-size: 4em;
+}
+
+#btn_menu{
+    color: white;
+}
+
+main{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 224, 205);
+}
+
+#form_container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 10px 13px 20px -10px rgba(0,0,0,0.50);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(190, 190, 190);
+}
+
+#form_signin{
+    width: 25vw;
+}

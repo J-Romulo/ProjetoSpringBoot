@@ -1,0 +1,61 @@
+main{
+    min-height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 224, 205);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    height: 8vh;
+    background-color: rgb(75, 94, 75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#form_container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: 10px 13px 20px -10px rgba(0,0,0,0.50);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.return_btn{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+#personal_info{
+    width: 100%;
+    padding: 0px 30px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1em;
+    overflow: hidden;
+}
+
+#img_profile{
+    width: 100%;
+    border-radius: 100%;
+}
+
+#personal_attendedTravels{
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
